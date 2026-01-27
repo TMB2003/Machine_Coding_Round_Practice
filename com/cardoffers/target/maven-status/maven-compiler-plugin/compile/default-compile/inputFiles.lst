@@ -1,0 +1,11 @@
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/models/User.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/enums/SearchType.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/enums/SearchField.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/models/UserCard.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/enums/OfferStatus.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/enums/Issuer.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/models/SearchRequest.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/Service/CardOffersServiceImpl.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/models/CardOffer.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/models/SearchResponse.java
+/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/src/main/java/com/cardoffers/Service/CardOffersService.java
