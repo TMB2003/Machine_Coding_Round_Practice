@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="EdgeCaseTest" time="0.008" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/test-classes:/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/classes:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/taha/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/taha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/surefire/surefirebooter-20260127183816200_3.jar /Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/surefire 2026-01-27T18-38-15_794-jvmRun1 surefire-20260127183816200_1tmp surefire_0-20260127183816200_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/test-classes:/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/classes:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/taha/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/taha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/taha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/surefire/surefirebooter-20260127183816200_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.2"/>
+    <property name="user.name" value="taha"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/taha/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/l_/gx9vspsx31z4d4z4tnl04lnm0000gn/T/"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/taha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.2"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testPlayerAtPosition0" classname="EdgeCaseTest" time="0.001">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 5 and moved from 0 to 5
+]]></system-out>
+  </testcase>
+  <testcase name="testSnakeAndLadderAtSamePosition" classname="EdgeCaseTest" time="0.001">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 6 and moved from 19 to 25
+]]></system-out>
+  </testcase>
+  <testcase name="testExtremeSnakePositions" classname="EdgeCaseTest" time="0.0">
+    <system-out><![CDATA[ExtremePlayer rolled a 6 but cannot move
+]]></system-out>
+  </testcase>
+  <testcase name="testLadderAtPosition99" classname="EdgeCaseTest" time="0.0">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 2 and won!
+]]></system-out>
+  </testcase>
+  <testcase name="testMultipleSnakesAtSamePosition" classname="EdgeCaseTest" time="0.001">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 5 and moved from 49 to 54
+]]></system-out>
+  </testcase>
+  <testcase name="testPlayerAtPosition97" classname="EdgeCaseTest" time="0.0">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 4 but cannot move
+]]></system-out>
+  </testcase>
+  <testcase name="testPlayerAtPosition98" classname="EdgeCaseTest" time="0.001">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 2 and won!
+]]></system-out>
+  </testcase>
+  <testcase name="testPlayerAtPosition99" classname="EdgeCaseTest" time="0.0">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 4 but cannot move
+]]></system-out>
+  </testcase>
+  <testcase name="testMultipleLaddersAtSamePosition" classname="EdgeCaseTest" time="0.0">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 6 and moved from 9 to 15
+]]></system-out>
+  </testcase>
+  <testcase name="testExtremeLadderPositions" classname="EdgeCaseTest" time="0.0">
+    <system-out><![CDATA[ExtremePlayer rolled a 1 and moved from 0 to 99
+]]></system-out>
+  </testcase>
+  <testcase name="testEmptyGameBoard" classname="EdgeCaseTest" time="0.001">
+    <system-out><![CDATA[EmptyPlayer rolled a 5 and moved from 0 to 5
+EmptyPlayer rolled a 3 and moved from 5 to 8
+EmptyPlayer rolled a 5 and moved from 8 to 13
+EmptyPlayer rolled a 6 and moved from 13 to 19
+EmptyPlayer rolled a 5 and moved from 19 to 24
+EmptyPlayer rolled a 4 and moved from 24 to 28
+EmptyPlayer rolled a 3 and moved from 28 to 31
+EmptyPlayer rolled a 5 and moved from 31 to 36
+EmptyPlayer rolled a 6 and moved from 36 to 42
+EmptyPlayer rolled a 5 and moved from 42 to 47
+EmptyPlayer rolled a 6 and moved from 47 to 53
+EmptyPlayer rolled a 4 and moved from 53 to 57
+EmptyPlayer rolled a 6 and moved from 57 to 63
+EmptyPlayer rolled a 2 and moved from 63 to 65
+EmptyPlayer rolled a 4 and moved from 65 to 69
+EmptyPlayer rolled a 4 and moved from 69 to 73
+EmptyPlayer rolled a 3 and moved from 73 to 76
+EmptyPlayer rolled a 3 and moved from 76 to 79
+EmptyPlayer rolled a 6 and moved from 79 to 85
+EmptyPlayer rolled a 4 and moved from 85 to 89
+EmptyPlayer rolled a 3 and moved from 89 to 92
+EmptyPlayer rolled a 3 and moved from 92 to 95
+EmptyPlayer rolled a 1 and moved from 95 to 96
+EmptyPlayer rolled a 5 but cannot move
+EmptyPlayer rolled a 1 and moved from 96 to 97
+EmptyPlayer rolled a 2 and moved from 97 to 99
+EmptyPlayer rolled a 5 but cannot move
+EmptyPlayer rolled a 3 but cannot move
+EmptyPlayer rolled a 2 but cannot move
+EmptyPlayer rolled a 3 but cannot move
+EmptyPlayer rolled a 4 but cannot move
+EmptyPlayer rolled a 3 but cannot move
+EmptyPlayer rolled a 6 but cannot move
+EmptyPlayer rolled a 6 but cannot move
+EmptyPlayer rolled a 1 and won!
+]]></system-out>
+  </testcase>
+  <testcase name="testLadderTo100" classname="EdgeCaseTest" time="0.001">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 4 and moved from 94 to 98
+]]></system-out>
+  </testcase>
+  <testcase name="testSnakeAtPosition1" classname="EdgeCaseTest" time="0.001">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 5 and moved from 0 to 5
+]]></system-out>
+  </testcase>
+  <testcase name="testSnakeFrom100" classname="EdgeCaseTest" time="0.0">
+    <system-out><![CDATA[EdgeCasePlayer rolled a 3 but cannot move
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cardoffers.test.CardOffersServiceTest" time="0.029" tests="19" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cardoffers.test.CardOffersServiceTest" time="0.034" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/test-classes:/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/classes:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/taha/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/taha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/surefire/surefirebooter-20260127182432611_3.jar /Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/surefire 2026-01-27T18-24-32_513-jvmRun1 surefire-20260127182432611_1tmp surefire_0-20260127182432611_2tmp"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/surefire/surefirebooter-20260127185226160_3.jar /Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/surefire 2026-01-27T18-52-26_082-jvmRun1 surefire-20260127185226160_1tmp surefire_0-20260127185226160_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/test-classes:/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/classes:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/taha/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/taha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:"/>
@@ -20,30 +20,31 @@
     <property name="user.home" value="/Users/taha"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2025-10-21"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers"/>
-    <property name="java.vm.compressedOopsMode" value="Non-zero based"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/surefire/surefirebooter-20260127182432611_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers/target/surefire/surefirebooter-20260127185226160_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="java.runtime.version" value="25.0.2"/>
     <property name="user.name" value="taha"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="26.2"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
     <property name="localRepository" value="/Users/taha/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/l_/gx9vspsx31z4d4z4tnl04lnm0000gn/T/"/>
-    <property name="java.version" value="25.0.1"/>
+    <property name="java.version" value="25.0.2"/>
     <property name="user.dir" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/cardoffers"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -51,30 +52,30 @@
     <property name="java.library.path" value="/Users/taha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.2"/>
     <property name="stdin.encoding" value="UTF-8"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testAddUserCardInvalid" classname="com.cardoffers.test.CardOffersServiceTest" time="0.013"/>
+  <testcase name="testAddUserCardInvalid" classname="com.cardoffers.test.CardOffersServiceTest" time="0.017"/>
   <testcase name="testUpdateOfferFailureSameOfferExists" classname="com.cardoffers.test.CardOffersServiceTest" time="0.001"/>
   <testcase name="testSearchAllOffersFullText" classname="com.cardoffers.test.CardOffersServiceTest" time="0.001"/>
   <testcase name="testAddUserCard" classname="com.cardoffers.test.CardOffersServiceTest" time="0.001"/>
   <testcase name="testCreateOfferDuplicateBusinessKey" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
   <testcase name="testAddInvalidUser" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
   <testcase name="testCreateOfferInvalid" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
-  <testcase name="testCreateOfferDuplicate" classname="com.cardoffers.test.CardOffersServiceTest" time="0.001"/>
+  <testcase name="testCreateOfferDuplicate" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
   <testcase name="testDeleteOfferNonExistent" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
-  <testcase name="testCreateOffer" classname="com.cardoffers.test.CardOffersServiceTest" time="0.001"/>
+  <testcase name="testCreateOffer" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
   <testcase name="testUpdateOfferNonExistent" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
   <testcase name="testSearchOffersForUserNoCards" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
   <testcase name="testDeleteOfferSuccess" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
   <testcase name="testUpdateOfferFailureInvalid" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
-  <testcase name="testUpdateOfferSuccess" classname="com.cardoffers.test.CardOffersServiceTest" time="0.001"/>
-  <testcase name="testSearchAllOffersInvalidRequest" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
-  <testcase name="testCreateUser" classname="com.cardoffers.test.CardOffersServiceTest" time="0.001"/>
-  <testcase name="testAddDuplicateUser" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
+  <testcase name="testUpdateOfferSuccess" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
+  <testcase name="testSearchAllOffersInvalidRequest" classname="com.cardoffers.test.CardOffersServiceTest" time="0.001"/>
+  <testcase name="testCreateUser" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
+  <testcase name="testAddDuplicateUser" classname="com.cardoffers.test.CardOffersServiceTest" time="0.001"/>
   <testcase name="testAddUserCardDuplicate" classname="com.cardoffers.test.CardOffersServiceTest" time="0"/>
 </testsuite>

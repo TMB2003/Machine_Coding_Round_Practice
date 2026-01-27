@@ -109,7 +109,7 @@ public class CardOffersServiceImpl implements CardOffersService {
 
         // Remove old entry and add new one with updated business key
         offers.remove(existingKey);
-        offers.put(businessKey, cardOffer);
+        offers.put(cardOffer.getOfferCode(), cardOffer);
         return true;
     }
 

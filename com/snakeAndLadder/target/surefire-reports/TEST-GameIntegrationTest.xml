@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GameIntegrationTest" time="0.011" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/test-classes:/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/classes:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/taha/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/taha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/surefire/surefirebooter-20260127183816200_3.jar /Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/surefire 2026-01-27T18-38-15_794-jvmRun1 surefire-20260127183816200_1tmp surefire_0-20260127183816200_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/test-classes:/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/classes:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/taha/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/taha/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/taha/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/taha/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/taha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder/target/surefire/surefirebooter-20260127183816200_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.2"/>
+    <property name="user.name" value="taha"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/taha/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/l_/gx9vspsx31z4d4z4tnl04lnm0000gn/T/"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="/Users/taha/Desktop/Machine_Coding_Round_Practice/com/snakeAndLadder"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/taha/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.2"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testConcurrentGameSessions" classname="GameIntegrationTest" time="0.0">
+    <system-out><![CDATA[Session1Player rolled a 1 and moved from 0 to 1
+Session2Player rolled a 4 and moved from 0 to 4
+Session1Player rolled a 3 and moved from 1 to 4
+Session2Player rolled a 4 and moved from 4 to 31
+Session1Player rolled a 6 and moved from 4 to 10
+Session2Player rolled a 3 and moved from 31 to 34
+Session1Player rolled a 6 and moved from 10 to 16
+Session2Player rolled a 2 and moved from 34 to 44
+Session1Player rolled a 1 and moved from 16 to 14
+Session2Player rolled a 5 and moved from 44 to 49
+Session1Player rolled a 6 and moved from 14 to 20
+Session2Player rolled a 2 and moved from 49 to 67
+Session1Player rolled a 5 and moved from 20 to 25
+Session2Player rolled a 5 and moved from 67 to 72
+Session1Player rolled a 6 and moved from 25 to 31
+Session2Player rolled a 2 and moved from 72 to 74
+Session1Player rolled a 3 and moved from 31 to 34
+Session2Player rolled a 6 and moved from 74 to 80
+Session1Player rolled a 4 and moved from 34 to 38
+Session2Player rolled a 1 and moved from 80 to 81
+Session1Player rolled a 2 and moved from 38 to 40
+Session2Player rolled a 1 and moved from 81 to 82
+Session1Player rolled a 5 and moved from 40 to 45
+Session2Player rolled a 6 and moved from 82 to 88
+Session1Player rolled a 2 and moved from 45 to 47
+Session2Player rolled a 4 and moved from 88 to 92
+Session1Player rolled a 2 and moved from 47 to 49
+Session2Player rolled a 1 and moved from 92 to 73
+Session1Player rolled a 4 and moved from 49 to 53
+Session2Player rolled a 5 and moved from 73 to 98
+Session1Player rolled a 3 and moved from 53 to 56
+Session2Player rolled a 3 but cannot move
+Session1Player rolled a 5 and moved from 56 to 61
+Session2Player rolled a 6 but cannot move
+Session1Player rolled a 6 and moved from 61 to 67
+Session2Player rolled a 1 and moved from 98 to 98
+Session1Player rolled a 1 and moved from 67 to 68
+Session2Player rolled a 4 but cannot move
+Session1Player rolled a 1 and moved from 68 to 69
+Session2Player rolled a 3 but cannot move
+Session1Player rolled a 4 and moved from 69 to 73
+Session2Player rolled a 6 but cannot move
+Session1Player rolled a 3 and moved from 73 to 76
+Session2Player rolled a 4 but cannot move
+Session1Player rolled a 6 and moved from 76 to 82
+Session2Player rolled a 1 and moved from 98 to 98
+Session1Player rolled a 3 and moved from 82 to 85
+Session2Player rolled a 4 but cannot move
+Session1Player rolled a 1 and moved from 85 to 86
+Session2Player rolled a 4 but cannot move
+Session1Player rolled a 5 and moved from 86 to 91
+Session2Player rolled a 1 and moved from 98 to 98
+Session1Player rolled a 1 and moved from 91 to 92
+Session2Player rolled a 5 but cannot move
+Session1Player rolled a 5 and moved from 92 to 97
+Session2Player rolled a 6 but cannot move
+Session1Player rolled a 1 and moved from 97 to 98
+Session2Player rolled a 3 but cannot move
+Session1Player rolled a 5 but cannot move
+Session2Player rolled a 6 but cannot move
+Session1Player rolled a 2 and won!
+Session2Player rolled a 4 but cannot move
+Session2Player rolled a 1 and moved from 98 to 98
+Session2Player rolled a 6 but cannot move
+Session2Player rolled a 6 but cannot move
+Session2Player rolled a 5 but cannot move
+Session2Player rolled a 5 but cannot move
+Session2Player rolled a 2 and won!
+]]></system-out>
+  </testcase>
+  <testcase name="testGameWithMinimalSnakesAndLadders" classname="GameIntegrationTest" time="0.001">
+    <system-out><![CDATA[MinimalPlayer rolled a 4 and moved from 0 to 4
+MinimalPlayer rolled a 4 and moved from 4 to 8
+MinimalPlayer rolled a 6 and moved from 8 to 14
+MinimalPlayer rolled a 1 and moved from 14 to 15
+MinimalPlayer rolled a 2 and moved from 15 to 17
+MinimalPlayer rolled a 4 and moved from 17 to 21
+MinimalPlayer rolled a 5 and moved from 21 to 26
+MinimalPlayer rolled a 2 and moved from 26 to 28
+MinimalPlayer rolled a 5 and moved from 28 to 33
+MinimalPlayer rolled a 2 and moved from 33 to 35
+MinimalPlayer rolled a 1 and moved from 35 to 36
+MinimalPlayer rolled a 2 and moved from 36 to 38
+MinimalPlayer rolled a 2 and moved from 38 to 40
+MinimalPlayer rolled a 2 and moved from 40 to 42
+MinimalPlayer rolled a 1 and moved from 42 to 43
+MinimalPlayer rolled a 6 and moved from 43 to 49
+MinimalPlayer rolled a 2 and moved from 49 to 51
+MinimalPlayer rolled a 5 and moved from 51 to 56
+MinimalPlayer rolled a 4 and moved from 56 to 60
+MinimalPlayer rolled a 6 and moved from 60 to 66
+MinimalPlayer rolled a 4 and moved from 66 to 70
+MinimalPlayer rolled a 3 and moved from 70 to 73
+MinimalPlayer rolled a 3 and moved from 73 to 76
+MinimalPlayer rolled a 2 and moved from 76 to 78
+MinimalPlayer rolled a 4 and moved from 78 to 82
+MinimalPlayer rolled a 2 and moved from 82 to 84
+MinimalPlayer rolled a 6 and moved from 84 to 90
+MinimalPlayer rolled a 5 and moved from 90 to 95
+MinimalPlayer rolled a 4 and moved from 95 to 99
+MinimalPlayer rolled a 6 but cannot move
+MinimalPlayer rolled a 6 but cannot move
+MinimalPlayer rolled a 3 but cannot move
+MinimalPlayer rolled a 5 but cannot move
+MinimalPlayer rolled a 3 but cannot move
+MinimalPlayer rolled a 2 but cannot move
+MinimalPlayer rolled a 4 but cannot move
+MinimalPlayer rolled a 5 but cannot move
+MinimalPlayer rolled a 3 but cannot move
+MinimalPlayer rolled a 5 but cannot move
+MinimalPlayer rolled a 5 but cannot move
+MinimalPlayer rolled a 6 but cannot move
+MinimalPlayer rolled a 1 and won!
+]]></system-out>
+  </testcase>
+  <testcase name="testSinglePlayerGame" classname="GameIntegrationTest" time="0.0">
+    <system-out><![CDATA[SoloPlayer rolled a 5 and moved from 0 to 5
+SoloPlayer rolled a 3 and moved from 5 to 31
+SoloPlayer rolled a 2 and moved from 31 to 33
+SoloPlayer rolled a 3 and moved from 33 to 44
+SoloPlayer rolled a 4 and moved from 44 to 48
+SoloPlayer rolled a 1 and moved from 48 to 49
+SoloPlayer rolled a 4 and moved from 49 to 53
+SoloPlayer rolled a 5 and moved from 53 to 58
+SoloPlayer rolled a 4 and moved from 58 to 19
+SoloPlayer rolled a 2 and moved from 19 to 42
+SoloPlayer rolled a 1 and moved from 42 to 43
+SoloPlayer rolled a 3 and moved from 43 to 46
+SoloPlayer rolled a 4 and moved from 46 to 50
+SoloPlayer rolled a 2 and moved from 50 to 52
+SoloPlayer rolled a 6 and moved from 52 to 58
+SoloPlayer rolled a 5 and moved from 58 to 63
+SoloPlayer rolled a 4 and moved from 63 to 67
+SoloPlayer rolled a 4 and moved from 67 to 91
+SoloPlayer rolled a 5 and moved from 91 to 96
+SoloPlayer rolled a 1 and moved from 96 to 97
+SoloPlayer rolled a 6 but cannot move
+SoloPlayer rolled a 2 and moved from 97 to 98
+SoloPlayer rolled a 5 but cannot move
+SoloPlayer rolled a 5 but cannot move
+SoloPlayer rolled a 2 and won!
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplePlayersGame" classname="GameIntegrationTest" time="0.002">
+    <system-out><![CDATA[Player1 rolled a 4 and moved from 0 to 4
+Player2 rolled a 1 and moved from 0 to 1
+Player3 rolled a 2 and moved from 0 to 38
+Player4 rolled a 6 and moved from 0 to 6
+Player1 rolled a 3 and moved from 4 to 14
+Player2 rolled a 2 and moved from 1 to 3
+Player3 rolled a 2 and moved from 38 to 40
+Player4 rolled a 4 and moved from 6 to 10
+Player1 rolled a 6 and moved from 14 to 20
+Player2 rolled a 5 and moved from 3 to 31
+Player3 rolled a 5 and moved from 40 to 45
+Player4 rolled a 6 and moved from 10 to 16
+Player1 rolled a 3 and moved from 20 to 23
+Player2 rolled a 5 and moved from 31 to 44
+Player3 rolled a 4 and moved from 45 to 49
+Player4 rolled a 2 and moved from 16 to 18
+Player1 rolled a 6 and moved from 23 to 29
+Player2 rolled a 4 and moved from 44 to 48
+Player3 rolled a 3 and moved from 49 to 52
+Player4 rolled a 3 and moved from 18 to 42
+Player1 rolled a 6 and moved from 29 to 35
+Player2 rolled a 4 and moved from 48 to 52
+Player3 rolled a 3 and moved from 52 to 55
+Player4 rolled a 3 and moved from 42 to 45
+Player1 rolled a 3 and moved from 35 to 38
+Player2 rolled a 1 and moved from 52 to 53
+Player3 rolled a 4 and moved from 55 to 59
+Player4 rolled a 5 and moved from 45 to 50
+Player1 rolled a 1 and moved from 38 to 39
+Player2 rolled a 6 and moved from 53 to 59
+Player3 rolled a 2 and moved from 59 to 61
+Player4 rolled a 4 and moved from 50 to 34
+Player1 rolled a 5 and moved from 39 to 44
+Player2 rolled a 4 and moved from 59 to 63
+Player3 rolled a 6 and moved from 61 to 67
+Player4 rolled a 1 and moved from 34 to 35
+Player1 rolled a 5 and moved from 44 to 49
+Player2 rolled a 3 and moved from 63 to 66
+Player3 rolled a 3 and moved from 67 to 70
+Player4 rolled a 5 and moved from 35 to 40
+Player1 rolled a 5 and moved from 49 to 34
+Player2 rolled a 4 and moved from 66 to 70
+Player3 rolled a 2 and moved from 70 to 72
+Player4 rolled a 6 and moved from 40 to 46
+Player1 rolled a 2 and moved from 34 to 44
+Player2 rolled a 1 and moved from 70 to 91
+Player3 rolled a 6 and moved from 72 to 98
+Player4 rolled a 6 and moved from 46 to 52
+Player1 rolled a 2 and moved from 44 to 46
+Player2 rolled a 2 and moved from 91 to 73
+Player3 rolled a 6 but cannot move
+Player4 rolled a 5 and moved from 52 to 57
+Player1 rolled a 2 and moved from 46 to 48
+Player2 rolled a 6 and moved from 73 to 79
+Player3 rolled a 5 but cannot move
+Player4 rolled a 1 and moved from 57 to 58
+Player1 rolled a 5 and moved from 48 to 53
+Player2 rolled a 2 and moved from 79 to 81
+Player3 rolled a 1 and moved from 98 to 98
+Player4 rolled a 3 and moved from 58 to 61
+Player1 rolled a 4 and moved from 53 to 57
+Player2 rolled a 2 and moved from 81 to 83
+Player3 rolled a 4 but cannot move
+Player4 rolled a 6 and moved from 61 to 67
+Player1 rolled a 2 and moved from 57 to 59
+Player2 rolled a 5 and moved from 83 to 88
+Player3 rolled a 1 and moved from 98 to 98
+Player4 rolled a 3 and moved from 67 to 70
+Player1 rolled a 2 and moved from 59 to 61
+Player2 rolled a 5 and moved from 88 to 73
+Player3 rolled a 3 but cannot move
+Player4 rolled a 3 and moved from 70 to 73
+Player1 rolled a 1 and moved from 61 to 19
+Player2 rolled a 4 and moved from 73 to 77
+Player3 rolled a 6 but cannot move
+Player4 rolled a 3 and moved from 73 to 76
+Player1 rolled a 2 and moved from 19 to 42
+Player2 rolled a 2 and moved from 77 to 79
+Player3 rolled a 5 but cannot move
+Player4 rolled a 5 and moved from 76 to 81
+Player1 rolled a 3 and moved from 42 to 45
+Player2 rolled a 6 and moved from 79 to 85
+Player3 rolled a 1 and moved from 98 to 98
+Player4 rolled a 4 and moved from 81 to 85
+Player1 rolled a 6 and moved from 45 to 67
+Player2 rolled a 4 and moved from 85 to 89
+Player3 rolled a 4 but cannot move
+Player4 rolled a 3 and moved from 85 to 88
+Player1 rolled a 3 and moved from 67 to 70
+Player2 rolled a 5 and moved from 89 to 94
+Player3 rolled a 1 and moved from 98 to 98
+Player4 rolled a 6 and moved from 88 to 94
+Player1 rolled a 3 and moved from 70 to 73
+Player2 rolled a 3 and moved from 94 to 97
+Player3 rolled a 6 but cannot move
+Player4 rolled a 6 and won!
+]]></system-out>
+  </testcase>
+  <testcase name="testCompleteGameFlow" classname="GameIntegrationTest" time="0.002">
+    <system-out><![CDATA[Alice rolled a 4 and moved from 0 to 4
+Bob rolled a 3 and moved from 0 to 3
+Charlie rolled a 6 and moved from 0 to 6
+Alice rolled a 4 and moved from 4 to 31
+Bob rolled a 5 and moved from 3 to 31
+Charlie rolled a 4 and moved from 6 to 10
+Alice rolled a 3 and moved from 31 to 34
+Bob rolled a 5 and moved from 31 to 44
+Charlie rolled a 4 and moved from 10 to 14
+Alice rolled a 5 and moved from 34 to 39
+Bob rolled a 3 and moved from 44 to 47
+Charlie rolled a 5 and moved from 14 to 19
+Alice rolled a 5 and moved from 39 to 44
+Bob rolled a 6 and moved from 47 to 53
+Charlie rolled a 4 and moved from 19 to 23
+Alice rolled a 1 and moved from 44 to 45
+Bob rolled a 5 and moved from 53 to 58
+Charlie rolled a 3 and moved from 23 to 26
+Alice rolled a 6 and moved from 45 to 67
+Bob rolled a 2 and moved from 58 to 60
+Charlie rolled a 2 and moved from 26 to 84
+Alice rolled a 4 and moved from 67 to 91
+Bob rolled a 5 and moved from 60 to 65
+Charlie rolled a 4 and moved from 84 to 88
+Alice rolled a 4 and moved from 91 to 75
+Bob rolled a 6 and moved from 65 to 91
+Charlie rolled a 4 and moved from 88 to 92
+Alice rolled a 5 and moved from 75 to 80
+Bob rolled a 3 and moved from 91 to 94
+Charlie rolled a 1 and moved from 92 to 73
+Alice rolled a 5 and moved from 80 to 85
+Bob rolled a 5 and moved from 94 to 98
+Charlie rolled a 1 and moved from 73 to 74
+Alice rolled a 5 and moved from 85 to 90
+Bob rolled a 5 but cannot move
+Charlie rolled a 3 and moved from 74 to 77
+Alice rolled a 5 and moved from 90 to 75
+Bob rolled a 3 but cannot move
+Charlie rolled a 2 and moved from 77 to 79
+Alice rolled a 2 and moved from 75 to 77
+Bob rolled a 5 but cannot move
+Charlie rolled a 4 and moved from 79 to 83
+Alice rolled a 1 and moved from 77 to 98
+Bob rolled a 1 and moved from 98 to 98
+Charlie rolled a 4 and moved from 83 to 24
+Alice rolled a 1 and moved from 98 to 98
+Bob rolled a 4 but cannot move
+Charlie rolled a 5 and moved from 24 to 29
+Alice rolled a 1 and moved from 98 to 98
+Bob rolled a 2 and won!
+]]></system-out>
+  </testcase>
+  <testcase name="testPlayerPositionsThroughoutGame" classname="GameIntegrationTest" time="0.001">
+    <system-out><![CDATA[TestPlayer1 rolled a 6 and moved from 0 to 6
+TestPlayer2 rolled a 3 and moved from 0 to 3
+TestPlayer1 rolled a 6 and moved from 6 to 12
+TestPlayer2 rolled a 3 and moved from 3 to 6
+TestPlayer1 rolled a 1 and moved from 12 to 13
+TestPlayer2 rolled a 2 and moved from 6 to 31
+TestPlayer1 rolled a 6 and moved from 13 to 19
+TestPlayer2 rolled a 6 and moved from 31 to 37
+TestPlayer1 rolled a 6 and moved from 19 to 25
+TestPlayer2 rolled a 5 and moved from 37 to 42
+TestPlayer1 rolled a 1 and moved from 25 to 26
+TestPlayer2 rolled a 2 and moved from 42 to 44
+TestPlayer1 rolled a 6 and moved from 26 to 32
+TestPlayer2 rolled a 6 and moved from 44 to 50
+TestPlayer1 rolled a 2 and moved from 32 to 34
+TestPlayer2 rolled a 1 and moved from 50 to 67
+TestPlayer1 rolled a 6 and moved from 34 to 40
+TestPlayer2 rolled a 5 and moved from 67 to 72
+TestPlayer1 rolled a 5 and moved from 40 to 45
+TestPlayer2 rolled a 5 and moved from 72 to 77
+TestPlayer1 rolled a 3 and moved from 45 to 48
+TestPlayer2 rolled a 5 and moved from 77 to 82
+TestPlayer1 rolled a 2 and moved from 48 to 50
+TestPlayer2 rolled a 2 and moved from 82 to 84
+TestPlayer1 rolled a 2 and moved from 50 to 52
+TestPlayer2 rolled a 1 and moved from 84 to 85
+TestPlayer1 rolled a 3 and moved from 52 to 55
+TestPlayer2 rolled a 3 and moved from 85 to 88
+TestPlayer1 rolled a 6 and moved from 55 to 61
+TestPlayer2 rolled a 2 and moved from 88 to 90
+TestPlayer1 rolled a 5 and moved from 61 to 66
+TestPlayer2 rolled a 5 and moved from 90 to 75
+TestPlayer1 rolled a 5 and moved from 66 to 91
+TestPlayer2 rolled a 6 and moved from 75 to 81
+TestPlayer1 rolled a 4 and moved from 91 to 75
+TestPlayer2 rolled a 6 and moved from 81 to 24
+TestPlayer1 rolled a 2 and moved from 75 to 77
+TestPlayer2 rolled a 6 and moved from 24 to 30
+TestPlayer1 rolled a 6 and moved from 77 to 83
+TestPlayer2 rolled a 1 and moved from 30 to 31
+TestPlayer1 rolled a 4 and moved from 83 to 24
+TestPlayer2 rolled a 4 and moved from 31 to 35
+TestPlayer1 rolled a 5 and moved from 24 to 29
+TestPlayer2 rolled a 2 and moved from 35 to 37
+TestPlayer1 rolled a 5 and moved from 29 to 34
+TestPlayer2 rolled a 2 and moved from 37 to 39
+TestPlayer1 rolled a 5 and moved from 34 to 39
+TestPlayer2 rolled a 4 and moved from 39 to 43
+TestPlayer1 rolled a 4 and moved from 39 to 43
+TestPlayer2 rolled a 5 and moved from 43 to 48
+TestPlayer1 rolled a 4 and moved from 43 to 47
+TestPlayer2 rolled a 2 and moved from 48 to 50
+TestPlayer1 rolled a 4 and moved from 47 to 67
+TestPlayer2 rolled a 1 and moved from 50 to 67
+TestPlayer1 rolled a 4 and moved from 67 to 91
+TestPlayer2 rolled a 5 and moved from 67 to 72
+TestPlayer1 rolled a 3 and moved from 91 to 94
+TestPlayer2 rolled a 1 and moved from 72 to 73
+TestPlayer1 rolled a 2 and moved from 94 to 96
+TestPlayer2 rolled a 5 and moved from 73 to 98
+TestPlayer1 rolled a 1 and moved from 96 to 97
+TestPlayer2 rolled a 3 but cannot move
+TestPlayer1 rolled a 4 but cannot move
+TestPlayer2 rolled a 5 but cannot move
+TestPlayer1 rolled a 3 and won!
+]]></system-out>
+  </testcase>
+  <testcase name="testGameWithNoSnakesOrLadders" classname="GameIntegrationTest" time="0.001">
+    <system-out><![CDATA[PlainPlayer rolled a 5 and moved from 0 to 5
+PlainPlayer rolled a 1 and moved from 5 to 6
+PlainPlayer rolled a 4 and moved from 6 to 10
+PlainPlayer rolled a 4 and moved from 10 to 14
+PlainPlayer rolled a 4 and moved from 14 to 18
+PlainPlayer rolled a 1 and moved from 18 to 19
+PlainPlayer rolled a 5 and moved from 19 to 24
+PlainPlayer rolled a 2 and moved from 24 to 26
+PlainPlayer rolled a 1 and moved from 26 to 27
+PlainPlayer rolled a 1 and moved from 27 to 28
+PlainPlayer rolled a 2 and moved from 28 to 30
+PlainPlayer rolled a 1 and moved from 30 to 31
+PlainPlayer rolled a 2 and moved from 31 to 33
+PlainPlayer rolled a 5 and moved from 33 to 38
+PlainPlayer rolled a 4 and moved from 38 to 42
+PlainPlayer rolled a 2 and moved from 42 to 44
+PlainPlayer rolled a 2 and moved from 44 to 46
+PlainPlayer rolled a 1 and moved from 46 to 47
+PlainPlayer rolled a 3 and moved from 47 to 50
+PlainPlayer rolled a 3 and moved from 50 to 53
+PlainPlayer rolled a 2 and moved from 53 to 55
+PlainPlayer rolled a 4 and moved from 55 to 59
+PlainPlayer rolled a 1 and moved from 59 to 60
+PlainPlayer rolled a 3 and moved from 60 to 63
+PlainPlayer rolled a 6 and moved from 63 to 69
+PlainPlayer rolled a 1 and moved from 69 to 70
+PlainPlayer rolled a 4 and moved from 70 to 74
+PlainPlayer rolled a 6 and moved from 74 to 80
+PlainPlayer rolled a 2 and moved from 80 to 82
+PlainPlayer rolled a 5 and moved from 82 to 87
+PlainPlayer rolled a 2 and moved from 87 to 89
+PlainPlayer rolled a 1 and moved from 89 to 90
+PlainPlayer rolled a 2 and moved from 90 to 92
+PlainPlayer rolled a 6 and moved from 92 to 98
+PlainPlayer rolled a 5 but cannot move
+PlainPlayer rolled a 5 but cannot move
+PlainPlayer rolled a 2 and won!
+]]></system-out>
+  </testcase>
+</testsuite>
